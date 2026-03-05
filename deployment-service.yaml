@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boardgame
-          image: krishnendu4321/boardinggame:latest # Image that will be used to containers in the cluster
+          image: krishnendu4321/boardplay:latest # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
